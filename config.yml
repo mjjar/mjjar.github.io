@@ -1,0 +1,34 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: mjjar.dev
+theme: PaperMod
+languages:
+      en:
+          languageName: "English"
+          weight: 1
+          menu:
+              main:
+                - name: Archive
+                  url: archives
+                  weight: 5
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: Tags
+                  url: tags/
+                  weight: 10
+                - name: Categories
+                  url: categories/
+                  weight: 10
+
+params:
+    homeInfoParams:
+        Title: Hi there 👋
+        Content: Can be Info, links, about...
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/adityatelange/hugo-PaperMod"
+        - name: twitter
+          url: "https://twitter.com/mjjarm"
+
